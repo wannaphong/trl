@@ -86,7 +86,7 @@ Instead of a judge, you can chose to use a reward model -- see [Reward Bench](ht
       ...
 -     judge=judge,
 +     reward_funcs=reward_model,
-+     reward_processing_class=reward_tokenizer,
++     reward_processing_classes=reward_tokenizer,
       ...
   )
 ```
